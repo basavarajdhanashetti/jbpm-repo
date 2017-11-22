@@ -1,0 +1,39 @@
+
+<form id="1379304546">
+<property name="name" value="ModifyPurchaseRequest-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="prDetails_department" type="InputText" id="1745773079">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;department (prDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="purchaseRequestIN/department"/>
+<property name="outputBinding" value="purchaseRequestOUT/department"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="prDetails_requestDate" type="InputText" id="1042295660">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestDate (prDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="purchaseRequestIN/requestDate"/>
+<property name="outputBinding" value="purchaseRequestOUT/requestDate"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="prDetails_requestNo" type="InputText" id="1877867010">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestNo (prDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="purchaseRequestIN/requestNo"/>
+<property name="outputBinding" value="purchaseRequestOUT/requestNo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="prDetails_requestedBy" type="InputText" id="568844628">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requestedBy (prDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="purchaseRequestIN/requestedBy"/>
+<property name="outputBinding" value="purchaseRequestOUT/requestedBy"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder supportedType="className" inputId="purchaseRequestIN" name="#E9E371" type="dataModelerEntry" outId="purchaseRequestOUT" value="com.bsd.oms.process.PurchaseRequest" id="prDetails"/>
+</form>
